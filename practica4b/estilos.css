@@ -1,0 +1,17 @@
+body{
+    background: blue;
+    color:white;
+}
+table, td{
+    margin:auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+h1, p {
+    margin-left: 20%;
+}
+
+.max{
+    margin-left: 42%;
+}

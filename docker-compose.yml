@@ -1,14 +1,13 @@
 version: "3"
- 
+
 services:
-   
+
   servicio_php:
     image: phpstorm/php-73-apache-xdebug-27
     volumes:
-      # Montamos nuestra web desde fuera en el directorio web del contenedor
+    # Montamos nuestra web desde fuera en el directorio web del contenedor
       - ~/AWEB:/var/www/html
     expose:
       - 80
     ports:
       - 8000:80
-

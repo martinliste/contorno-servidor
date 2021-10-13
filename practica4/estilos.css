@@ -1,0 +1,28 @@
+table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: white;
+}
+.t td{
+    width: 15px;
+    height: 10px;
+}
+body{
+    background: blue;
+}
+.marco{
+    background: black;
+    color: white;
+}
+div {
+   margin-left: 200px;
+   
+}
+h1{
+    margin-left: 260px;
+    color: yellow;
+}
+p{
+    margin-left: 100px;
+    color: white;
+}

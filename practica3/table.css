@@ -1,0 +1,18 @@
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.marco td{
+    background: grey;
+    color: white;
+}
+.odd td{
+    background: white;
+    color: black;
+}
+
+.even td{
+    background: black;
+    color: yellow;
+}
